@@ -7,13 +7,14 @@
 ###### Heading 6
 
 <!-- Italics -->
-*This test* is italic
+*This text* is italic
 
 _This text_ is italic
 
 <!-- Strong -->
 **This text** is strong
-__ This text__ is strong
+
+__This text__ is strong
 
 <!-- Strikethrough -->
 ~~This text~~ is strikethrough
@@ -28,9 +29,8 @@ ___
 
 <!-- Links -->
 [Brian Behm](http://brianbehm.com)
-
-[Brian Behm](http://brianbehm.com
-"Brian Behm")
+<!-- Link with a title -->
+[Brian Behm](http://brianbehm.com "Brian Behm")
 
 <!-- UL -->
 * Item 1
@@ -44,7 +44,7 @@ ___
 1. Item 2
 1. Item 3
 
-<!-- Inline Code Block>
+<!-- Inline Code Block -->
 `<p>This is a paragraph</p>`
 
 <!-- Images -->
@@ -66,6 +66,7 @@ ___
 
     npm start
 ```
+
 ```python
     def add(num1, num2):
         return num1 + num2
